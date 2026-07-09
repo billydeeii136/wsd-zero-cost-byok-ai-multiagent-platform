@@ -1,0 +1,75 @@
+# Local environment and secrets
+.env
+.env.*
+*.env
+!*.env.example
+!*.env.template
+WSD_MEMORY_LOCAL_TOKEN_DO_NOT_COMMIT.txt
+vault-key.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa*
+id_ed25519*
+id_ecdsa*
+known_hosts
+authorized_keys
+
+# Local account or tool credential stores
+.ssh/
+.cloudflared/
+.cloudflare/
+.wrangler/
+.warp/
+.config/gh/
+.netrc
+.npmrc
+
+# Token and credential artifacts
+vault/*.db
+vault/*.sqlite
+vault/*.sqlite3
+vault/*.secret
+vault/*recovery*
+vault/*token*
+vault/*password*
+vault/*key*
+vault/*credential*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Warp
+.warp/
+*.warp
+
+# Logs
+*.log
+logs/
+log/
+
+# Node
+node_modules/
+npm-debug.log*
+
+
+# Build artifacts
+dist/
+build/
+*.tgz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+worktrees/
+
+# Added by WSD_CCOS alignment
+.venv/
+__pycache__/

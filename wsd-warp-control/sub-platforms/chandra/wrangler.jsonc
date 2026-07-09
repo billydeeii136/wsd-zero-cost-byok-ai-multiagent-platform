@@ -1,0 +1,10 @@
+{
+  // Chandra — WSD_TOTAL_INFRASTRUCTURE Sub-Platform
+  "name": "wsd-chandra-platform",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-01",
+  "kv_namespaces": [
+    { "binding": "CONFIG", "id": "placeholder" }
+  ],
+  "pages_build_output_dir": "dist"
+}

@@ -1,0 +1,39 @@
+# Secrets / keys
+*.env
+*byok-key-inventory*
+*.pem
+*.key
+id_rsa*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+warp-guard.log
+warp-guard.err.log
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build artifacts
+*.dmg
+*.apk
+*.exe
+*.msi
+*.deb
+*.rpm
+*.AppImage
+
+# Editor
+.vscode/*
+!.vscode/settings.json

@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "version": "1.0",
+    "updated": "2026-06-06",
+    "owner": "William Scott Davis II",
+    "apex_domain": "wsdenterprisesworldwide.com",
+    "total_panes": 20,
+    "total_columns": 4
+  },
+  "sub_platforms": [
+    {
+      "name": "priya",
+      "domain": "priya.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/codex-wsd-control",
+      "worker_name": "wsd-priya-platform",
+      "status": "operational",
+      "column": 1,
+      "role": "Codex WSD Control lane"
+    },
+    {
+      "name": "aisha",
+      "domain": "aisha.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/codex-wsd-control",
+      "worker_name": "wsd-aisha-platform",
+      "status": "operational",
+      "column": 1,
+      "role": "Codex WSD Control lane backup"
+    },
+    {
+      "name": "mei",
+      "domain": "mei.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/Documents/Codex",
+      "worker_name": "wsd-mei-platform",
+      "status": "operational",
+      "column": 1,
+      "role": "Documents Codex lane"
+    },
+    {
+      "name": "amara",
+      "domain": "amara.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/wsd-warp-control",
+      "worker_name": "wsd-amara-platform",
+      "status": "operational",
+      "column": 1,
+      "role": "WSD WARP Control primary lane"
+    },
+    {
+      "name": "zara",
+      "domain": "zara.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/WSD_AI_AGENT_LANES/programs/warp/projects/wsd-warp-ai-orchestrator/lanes/warp",
+      "worker_name": "wsd-zara-platform",
+      "status": "operational",
+      "column": 1,
+      "role": "WARP AI Orchestrator lane"
+    },
+    {
+      "name": "nia",
+      "domain": "nia.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/WSD",
+      "worker_name": "wsd-nia-platform",
+      "status": "operational",
+      "column": 2,
+      "role": "WSD enterprise lane"
+    },
+    {
+      "name": "fatima",
+      "domain": "fatima.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/wsd_backups",
+      "worker_name": "wsd-fatima-platform",
+      "status": "operational",
+      "column": 2,
+      "role": "WSD backups lane"
+    },
+    {
+      "name": "keiko",
+      "domain": "keiko.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/WSD_BUILD",
+      "worker_name": "wsd-keiko-platform",
+      "status": "operational",
+      "column": 2,
+      "role": "WSD build lane"
+    },
+    {
+      "name": "lena",
+      "domain": "lena.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/WSD_JAILS",
+      "worker_name": "wsd-lena-platform",
+      "status": "operational",
+      "column": 2,
+      "role": "WSD jails / quarantine lane"
+    },
+    {
+      "name": "maya",
+      "domain": "maya.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/cloudflared",
+      "worker_name": "wsd-maya-platform",
+      "status": "operational",
+      "column": 2,
+      "role": "Cloudflare tunnel lane"
+    },
+    {
+      "name": "tala",
+      "domain": "tala.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/helpdesk_ai",
+      "worker_name": "wsd-tala-platform",
+      "status": "operational",
+      "column": 3,
+      "role": "Helpdesk AI lane"
+    },
+    {
+      "name": "rosa",
+      "domain": "rosa.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/TCAR",
+      "worker_name": "wsd-rosa-platform",
+      "status": "operational",
+      "column": 3,
+      "role": "TCAR lane"
+    },
+    {
+      "name": "imani",
+      "domain": "imani.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/NEXGEN_SYNC",
+      "worker_name": "wsd-imani-platform",
+      "status": "operational",
+      "column": 3,
+      "role": "NEXGEN sync lane"
+    },
+    {
+      "name": "jin",
+      "domain": "jin.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/ai-growth",
+      "worker_name": "wsd-jin-platform",
+      "status": "operational",
+      "column": 3,
+      "role": "AI growth lane"
+    },
+    {
+      "name": "yuki",
+      "domain": "yuki.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/wsd_production_core",
+      "worker_name": "wsd-yuki-platform",
+      "status": "operational",
+      "column": 3,
+      "role": "WSD production core lane"
+    },
+    {
+      "name": "chandra",
+      "domain": "chandra.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/WSD_TOTAL_INFRASTRUCTURE",
+      "worker_name": "wsd-chandra-platform",
+      "status": "operational",
+      "column": 4,
+      "role": "WSD total infrastructure lane"
+    },
+    {
+      "name": "soraya",
+      "domain": "soraya.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/.warp/worktrees/codex-wsd-control",
+      "worker_name": "wsd-soraya-platform",
+      "status": "operational",
+      "column": 4,
+      "role": "Codex worktree lane"
+    },
+    {
+      "name": "ananya",
+      "domain": "ananya.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/.warp/tab_configs",
+      "worker_name": "wsd-ananya-platform",
+      "status": "operational",
+      "column": 4,
+      "role": "WARP tab configs lane"
+    },
+    {
+      "name": "hana",
+      "domain": "hana.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/codex",
+      "worker_name": "wsd-hana-platform",
+      "status": "operational",
+      "column": 4,
+      "role": "Codex primary lane"
+    },
+    {
+      "name": "aya",
+      "domain": "aya.wsdenterprisesworldwide.com",
+      "lane_directory": "/Users/billydeeii136/Documents",
+      "worker_name": "wsd-aya-platform",
+      "status": "operational",
+      "column": 4,
+      "role": "Documents general lane"
+    }
+  ],
+  "columns": {
+    "col1": ["priya", "aisha", "mei", "amara", "zara"],
+    "col2": ["nia", "fatima", "keiko", "lena", "maya"],
+    "col3": ["tala", "rosa", "imani", "jin", "yuki"],
+    "col4": ["chandra", "soraya", "ananya", "hana", "aya"]
+  }
+}

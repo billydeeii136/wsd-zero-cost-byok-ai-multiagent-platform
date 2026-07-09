@@ -1,0 +1,29 @@
+{
+  "$schema": "https://unpkg.com/wrangler@latest/wrangler.jsonc",
+  // WSD Apex Domain Worker
+  // Zero paid Cloudflare features — Free tier only
+  // KV used only for config/status — low-frequency reads
+  "name": "wsd-apex-platform",
+  "account_id": "2d288500662a3e524ebbd0a191ce8220",
+  "main": "apex-worker.js",
+  "compatibility_date": "2026-06-05",
+  // KV for config/status only — low-frequency usage
+  "kv_namespaces": [
+    {
+      "binding": "WARP_CONFIG",
+      "id": "2ee259cbd69b400983a5540731d9d274",
+      "preview_id": "8455b2e3a6c44244a100c94176897103"
+    }
+  ],
+  // Route binding for apex domain and wildcard subdomains
+  "routes": [
+    {
+      "pattern": "wsdenterprisesworldwide.com/*",
+      "custom_domain": true
+    },
+    {
+      "pattern": "*.wsdenterprisesworldwide.com",
+      "custom_domain": true
+    }
+  ]
+}

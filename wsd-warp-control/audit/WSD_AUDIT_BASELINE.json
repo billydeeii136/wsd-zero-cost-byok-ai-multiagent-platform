@@ -1,0 +1,238 @@
+{
+"system_identity": {
+"hostname": "MacBook-Air",
+"full_hostname": "MacBook-Air.local",
+"username": "billydeeii136",
+"uid": "501",
+"home_directory": "/Users/billydeeii136",
+"audit_timestamp": "2026-06-07T07:35:38Z",
+"timezone": "EDT",
+},
+"hardware": {
+"model": "MacBookAir7,1",
+"cpu_cores": "4",
+"physical_memory_gb": "4.00",
+"battery_status": "Now drawing from 'AC Power'",
+},
+"operating_system": {
+"platform": "macOS",
+"version": "12.7.6",
+"build": "21H1320",
+"kernel_version": "21.6.0",
+"shell_name": "bash",
+"shell_version": "GNU bash, version 5.3.12(1)-release (x86_64-apple-darwin21.6.0)",
+"uptime": " 3:35  up 22:47, 1 user, load averages: 3.46 3.23 3.24",
+},
+"disk_storage": {
+"root_disk": {"size": "233Gi", "used": "14Gi", "available": "9.5Gi", "percent": "61%"},
+"home_disk": {"size": "233Gi", "used": "206Gi", "available": "9.5Gi", "percent": "96%"},
+"disk_partitions": {"device": "/dev/disk1s5s1", "mount": "/", "percent": "61%"},{"device": "/dev/disk1s4", "mount": "/System/Volumes/VM", "percent": "18%"},{"device": "/dev/disk1s2", "mount": "/System/Volumes/Preboot", "percent": "3%"},{"device": "/dev/disk1s6", "mount": "/System/Volumes/Update", "percent": "1%"},{"device": "/dev/disk1s1", "mount": "/System/Volumes/Data", "percent": "96%"},
+},
+"memory": {
+"vm_stats": "Mach": "Memory","Pages": "3936","Pages": "170735","Pages": "166349","Pages": "3870","Pages": "0","Pages": "down:","Pages": "1302",""Translation": "916818914","Pages": "58308511","Pages": "filled:","Pages": "158769348","Pages": "12766494","File-backed": "217092","Anonymous": "123862","Pages": "in","Pages": "by","Decompressions:": "","Compressions:": "","Pageins:": "","Pageouts:": "","Swapins:": "","Swapouts:": "",
+"top_memory_processes": {"pid": "2726", "command": "stable", "mem_percent": "6.0"},{"pid": "73362", "command": "WindowServer", "mem_percent": "0.6"},{"pid": "55889", "command": "Notes", "mem_percent": "0.8"},{"pid": "54356", "command": "cloudd", "mem_percent": "0.5"},{"pid": "44659", "command": "rtcreportingd", "mem_percent": "0.1"},{"pid": "55292", "command": "coreduetd", "mem_percent": "0.3"},{"pid": "58564", "command": "bash", "mem_percent": "0.1"},{"pid": "155", "command": "taskgated", "mem_percent": "0.0"},{"pid": "34762", "command": "Finder", "mem_percent": "0.3"},{"pid": "146", "command": "notifyd", "mem_percent": "0.0"},
+},
+"cpu": {
+"load_avg": 3.46 3.23 3.24,
+"top_cpu_processes": {"pid": "2726", "command": "stable", "cpu_percent": "51.7"},{"pid": "55889", "command": "Notes", "cpu_percent": "36.2"},{"pid": "73362", "command": "WindowServer", "cpu_percent": "28.8"},{"pid": "54356", "command": "cloudd", "cpu_percent": "11.9"},{"pid": "55292", "command": "coreduetd", "cpu_percent": "11.5"},{"pid": "44659", "command": "rtcreportingd", "cpu_percent": "5.5"},{"pid": "58564", "command": "bash", "cpu_percent": "5.2"},{"pid": "55646", "command": "deleted", "cpu_percent": "3.6"},{"pid": "155", "command": "taskgated", "cpu_percent": "1.8"},{"pid": "1", "command": "launchd", "cpu_percent": "0.9"},
+},
+"network": {
+"network_interfaces": {"interface": "lo0:", "status": "flags=8049<UP,LOOPBACK,RUNNING,MULTICAST>"},{"interface": "gif0:", "status": "flags=8010<POINTOPOINT,MULTICAST>"},{"interface": "stf0:", "status": "flags=0<>"},{"interface": "en0:", "status": "flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST>"},{"interface": "en1:", "status": "flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST>"},{"interface": "bridge0:", "status": "flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST>"},{"interface": "p2p0:", "status": "flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST>"},{"interface": "awdl0:", "status": "flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST>"},{"interface": "llw0:", "status": "flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST>"},{"interface": "utun1:", "status": "flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST>"},{"interface": "utun2:", "status": "flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST>"},{"interface": "utun3:", "status": "flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST>"},{"interface": "utun0:", "status": "flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST>"},
+"active_connections": 11,
+"open_ports": *:2968,localhost:3000,localhost:9277,
+"cloudflare_warp_status": ,
+"dns_servers": 127.0.2.2,127.0.2.3,
+"default_gateway": 10.0.0.1,
+},
+"applications_installed": {
+"all_apps": 1001 TVs.app,1Doc.app,1Password.app,Agenda.app,Align.app,All-in-One Messenger.app,Android Studio.app,AnyTalk.app,App Explorer.app,AppsWhere AI.app,Azure-Administrator.app,Battery Health.app,Bitwarden.app,CSV Editor Pro X.app,Canva.app,CleanMyMac_5_MAS.app,Cleaner-App.app,CleanerOne.app,Clone in VS Code.app,CloudMounter.app,Cloudflare WARP.app,Codex.app,Color Widgets.app,Contacts Sync.app,Convert ISO to DMG.app,DBManage.app,DeviceMirror Lite.app,DirEqual.app,Discord.app,DiskO.app,Docker 2.app,Docker.app,Docs for Google Docs and Drive.app,Document Tool - Convert HTML and Docx Files.app,DocxEditor.app,DrCleanerProPlus.app,DuckDuckGo.app,Fax.app,Fello AI.app,FileZilla Pro.app,Find My Bluetooth BLE Device.app,Firefox.app,Free VPN.app,FullOffice.app,Gemini 2.app,Gemini 3.app,Gemini.app,Google Chrome.app,Google Docs.app,Google Drive.app,Google Sheets.app,Google Slides.app,Grammarly for Safari.app,HY SQL Query.app,HitEmUp.app,Jayson.app,Learn Python.app,Liya.app,MacDroid.app,Mactracker.app,Mail for Gmail.app,MobiDocs.app,Mobirise.app,Navicat for MySQL.app,Navicat for SQL Server.app,One Click Email.app,OpenCat.app,Opera (1).app,Opera.app,Orbi AI.app,PDF 7.app,PDF To Word Converter.app,PHP Recipes.app,Plotly Studio 2.app,Plotly Studio.app,PortX.app,Postman-2.app,Prism Video File Converter.app,QuickShade.app,RAR Extractor - Unarchiver Pro.app,Rapidmg.app,Ridill SQLIte.app,RocketCake Website Editor.app,Safari.app,ScannerPro.app,Screen Mirror to TV & Device.app,Sequel Ace.app,Shell Assistant.app,Sider.app,Simple Web Server.app,Singlebox.app,Slack.app,Spark Desktop.app,Spark.app,SqliteManagerTool.app,SteelSQL.app,StepFileViewer.app,Swifter.app,Telegram.app,Termial.app,Terminux.app,Termius.app,TextNow.app,The Document Converter.app,Thunderbird.app,Tor Browser.app,Transporter.app,UTM.app,Unzip - RAR ZIP 7Z Unarchiver.app,Userscripts.app,VLC.app,VPN Proxy Master.app,Visual Studio Code.app,VoiceOver Designer.app,WSD AI Countermeasure R&D Lab.app,WSD Forced Dynamic API Interface.app,WSD Proprietary AI Browser.app,WSD Proprietary AI Chat Bot.app,WSD Seven Domain Live API Interface.app,WSD Seven Domain Web Interface.app,Warp.app,WebCatalog.app,WhatsApp.app,WiFiWize.app,WinOnX.app,WinZip.app,iPDF - PDF to Word Converter.app,iTerm.app,sshTunnel.app,termcc.app,wpsoffice.app,zoom.us.app,
+"browsers": DuckDuckGo.app,DuckDuckGo.localized,Firefox.app,Google Chrome.app,Grammarly for Safari.app,Opera (1).app,Opera.app,Safari.app,
+"development_tools": Clone in VS Code.app,Codex.app,Docker 2.app,Docker.app,Postman-2.app,Visual Studio Code.app,
+"productivity_apps": Discord.app,Docs for Google Docs and Drive.app,Google Drive.app,Slack.app,
+"security_apps": 1Password.app,Bitwarden.app,Free VPN.app,VPN Proxy Master.app,
+},
+"browsers_detailed": {
+"chrome_version": Google Chrome 148.0.7778.216 ,
+"chrome_profiles": Profile 1,Profile 3,System Profile,
+"chrome_extensions_count": 11,
+"firefox_version": Mozilla Firefox 140.10.0esr,
+"firefox_profiles": fypm9tt7.default,ofkqvj2z.default-esr,
+"safari_version": 17.6,
+"opera_version": NOT_INSTALLED,
+"duckduckgo_version": DuckDuckGo.app,
+"edge_version": NOT_INSTALLED,
+},
+"vs_code_detailed": {
+"vscode_version": 1.123.0,
+"vscode_extensions_total": 65,
+"vscode_extensions_list": amazonwebservices.amazon-q-vscode-2.2.0,andrepimenta.claude-code-chat-2.0.9,anthropic.claude-code-2.1.165-darwin-x64,augment.vscode-augment-0.859.7,buildwithlayer.twilio-integration-expert-jbwvb-0.0.2,christian-kohler.npm-intellisense-1.4.5,chrmarti.regex-0.6.0,codeium.codeium-1.48.2,coderabbit.coderabbit-vscode-0.19.3,codingworkflow.claude-runner-0.4.1,codium.codium-2.2.4,davidanson.vscode-markdownlint-0.61.2,extensions.json,feiskyer.chatgpt-copilot-4.11.0,github.codespaces-1.18.13,github.remotehub-0.64.0,github.vscode-pull-request-github-0.146.0,google.gemini-cli-vscode-ide-companion-0.20.0,google.geminicodeassist-2.85.0,googlecloudtools.cloudcode-2.40.0,googlecloudtools.datacloud-0.3.1,intellsmi.comment-translate-3.1.0,keploy.keployio-2.1.7,kparth01.ollama-codex-1.0.4,m1self.mcp-client-0.0.1,markusbegerow.local-llm-chat-vscode-1.0.4,maruf-bepary.llama-vscode-chat-0.1.4,ms-azure-load-testing.microsoft-testing-0.2.0,ms-azuretools.vscode-azure-github-copilot-1.0.209-darwin-x64,ms-azuretools.vscode-azure-mcp-server-2.0.43-darwin-x64,ms-azuretools.vscode-azureresourcegroups-0.12.6,ms-azuretools.vscode-containers-2.4.5,ms-dotnettools.vscode-dotnet-modernize-1.0.1152,ms-dotnettools.vscode-dotnet-runtime-3.0.2,ms-python.debugpy-2026.6.0-darwin-x64,ms-python.vscode-pylance-2026.2.1,ms-python.vscode-python-envs-1.30.0-darwin-x64,ms-toolsai.jupyter-2025.9.1-darwin-x64,ms-toolsai.jupyter-keymap-1.1.2,ms-toolsai.jupyter-renderers-1.3.0,ms-toolsai.vscode-jupyter-cell-tags-0.1.9,ms-toolsai.vscode-jupyter-slideshow-0.1.6,ms-vscode-remote.remote-containers-0.459.1,ms-vscode.azure-repos-0.40.0,ms-vscode.remote-repositories-0.42.0,ms-vscode.vscode-websearchforcopilot-0.1.4,ms-windows-ai-studio.windows-ai-studio-1.4.2-darwin-x64,nullsetindustries.lmstudio-byok-chat-provider-0.3.5,openai.chatgpt-26.602.30954-darwin-x64,parallelsdesktop.parallels-desktop-1.5.11-darwin-x64,qwenlm.qwen-code-vscode-ide-companion-0.16.0-darwin-x64,rizwanansari.anthropic-coder-0.0.1,rooveterinaryinc.roo-cline-3.54.0,saoudrizwan.claude-dev-3.88.1,sbluemin.github-copilot-cli-agents-0.2.7,shopify.ruby-lsp-0.10.4,softwaredotcom.swdc-vscode-2.8.18,sourcery.sourcery-1.43.0-darwin-x64,supermaven.supermaven-1.1.12-darwin-x64,teamsdevapp.vscode-ai-foundry-1.2.4,vivswan.litellm-vscode-chat-0.2.6,vscjava.vscode-java-upgrade-2.1.2,wallabyjs.console-ninja-1.0.532,waveflow.claude-code-chat-cursor-design-0.1.3,zyte.web-scraping-1.2.0,
+"vscode_extensions_duplicates": ,
+"vscode_extension_cache_size": 508M,
+"vscode_app_support_size": 821M,
+"vscode_shell_config": "path": "/bin/bash",
+"vscode_workspace_files": ,
+},
+"terminal_cli_tools": {
+"bash_version": GNU bash, version 5.3.12(1)-release (x86_64-apple-darwin21.6.0),
+"zsh_version": zsh 5.8.1 (x86_64-apple-darwin21.0),
+"git_version": git version 2.54.0,
+"node_version": v24.13.0,
+"npm_version": 11.16.0,
+"python3_version": Python 3.13.7,
+"pip3_version": pip 25.2 from /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pip (python 3.13),
+"brew_version": Homebrew 5.1.15,
+"ruby_version": ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.x86_64-darwin21],
+"rclone_version": rclone v1.73.3,
+"wrangler_version": 4.98.0,
+"gh_version": gh version 2.93.0 (2026-05-27),
+"gcloud_version": Google Cloud SDK 570.0.0,
+"cloudflared_version": cloudflared version 2026.5.2 (built 2026-05-27T10:15:36Z),
+"docker_version": Docker version 29.5.3, build d1c06ef6b4,
+"terraform_version": Terraform v1.5.7,
+"ansible_version": NOT_INSTALLED,
+},
+"github_repositories": {
+"github_user": billydeeii136,
+"total_repos": 22,
+"repo_list": billydeeii136/wsd-warp-control,billydeeii136/codex-wsd-control,billydeeii136/wsd-cumseeme-live,billydeeii136/wsdenterprisesworldwide.com,billydeeii136/wsdenterpirsesworldwidecloudservices.cloud,billydeeii136/vokdesigngarage.com,billydeeii136/neighborhoodcarspa.us.com,billydeeii136/lebeautiful-botanicals.us.com,billydeeii136/acwyatt.com,billydeeii136/Cloudflare,billydeeii136/wsd-warp-ai-orchestrator,billydeeii136/Codex,billydeeii136/warp,billydeeii136/wsd-master-credential-vault,billydeeii136/cloud-native-store,billydeeii136/wsd-ccos-warp-platform,billydeeii136/free-1000-tb-cloud-cluster-mesh,billydeeii136/vokdesigngarage-com-private-proof-hardening,billydeeii136/wsdenterpirsesworldwidecloudservices.cloud-,billydeeii136/cumseeme.live,billydeeii136/lebeautiful-enterprise,billydeeii136/creator-platform-backend,
+"ssh_key_present": id_ed25519,
+"git_config_user": William Scott Davis II,
+"git_config_email": billydeeii136@gmail.com,
+},
+"cloudflare_state": {
+"wrangler_configured": 
+NOT_CONFIGURED,
+"kv_namespaces": ,
+"workers_list": 
+ ⛅️ wrangler 4.98.0
+───────────────────
+Total Upload: 1.50 KiB / gzip: 0.69 KiB
+Your Worker has access to the following bindings:
+Binding                                                         Resource                  
+env.KV_MEMORY (d54601ab6193466ab4be84dfe8e910e4)                KV Namespace              
+env.KV_STATE (88fca46d74f84c9a90954d4e8dc59c9d)                 KV Namespace              
+env.DB (wsd-enterprises-db)                                     D1 Database               
+env.DOMAIN ("wsdenterprisesworldwidecloudservices....")         Environment Variable      
+env.LANE ("Primary Corporate Ledger")                           Environment Variable      
+
+--dry-run: exiting now.,
+"cloudflare_tunnel_status": You can obtain more detailed information for each tunnel with `cloudflared tunnel info <name/uuid>`;ID                                   NAME            CREATED              CONNECTIONS ;b4061a30-980e-4fb4-8b28-72894513c7fb MAC             2026-04-18T10:03:33Z             ;cffeb8e3-8031-42ab-9afc-5f09b2d8e1eb my-ssh-tunnel   2026-04-18T10:39:04Z             ;95a36949-73b3-4547-a5b4-ea741435251a wsd-ccos-tunnel 2026-03-22T19:51:42Z             ;,
+"cloudflare_api_token_present": YES,
+},
+"google_cloud_state": {
+"gcloud_project": wsd-ccos-nexgen-1,
+"gcloud_account": billydeeii136@gmail.com,
+"gcloud_regions": africa-south1,asia-east1,asia-east2,asia-northeast1,asia-northeast2,
+"active_gcp_vms": ,
+"gcp_services_enabled": aiplatform.googleapis.com,analyticshub.googleapis.com,anthosconfigmanagement.googleapis.com,anthospolicycontroller.googleapis.com,apphub.googleapis.com,appoptimize.googleapis.com,apptopology.googleapis.com,artifactregistry.googleapis.com,autoscaling.googleapis.com,bigquery.googleapis.com,
+},
+"google_drive_state": {
+"drive_mounts": 3,
+"drive_mount_paths": /Users/billydeeii136/Library/CloudStorage/GoogleDrive,/Users/billydeeii136/Library/CloudStorage/GoogleDrive-,/Users/billydeeii136/Library/CloudStorage/GoogleDrive-williamscottdavis136@gmail.com,
+"drive_top_level_lanes":  4-13-cv-00058-RBS-DEM Document 329 Filed 08:19:16 Page 1 of 12 Dimissal Order and Pre Filing Review Order, 5-14-cr-00240-D All Defendants USA v. Davis Date filed- 10:15:2014 Date terminated- 03:29:2018 Date of last filing- 08:18:2025  Filer USA, 5-18-cv-00238-BR  2255,01_LEGAL,02_PROJECTS,03_PERSONAL,04_DOWNLOADS,05_BACKUPS,06_TOOLS_REFERENCE,07_ENTERPRISE,08_ARCHIVE,13-2505 Doc- 97 ,13-50689-FJS & SCS In Re Grice,13-56089-FJS In Re Grice Chpt 7 Bandruptcy,18-4201 Appeal US v Davis 5-14-CR-240-B,4-13-cv-00063-RBS-DEM Docket,4-13-cv-00063-RBS-DEM Dockets,4-30-26 7-11 PM Practice Preferences - The Honorable United States District Judge James C. Dever III,5-12-CV-00493-F Pre-Filing Injunction,5-12-cv-00493-M Docket.,
+"auto_offload_contents": 01_Downloads_Hourly:2,02_Large_Files:0,03_Installers_DMG:0,04_Images_Media:0,05_Archive_ZIP:0,06_Scripts_Terminal:66,07_VSCode_Workspaces:0,08_Misc:0,
+},
+"domains_and_dns": {
+"porkbun_domains": ,
+"local_dns_cache": 104.21.58.43,172.67.200.53,
+},
+"credentials_and_secrets_presence": {
+"ssh_keys": ,
+"keychain_items":     "/Users/billydeeii136/Library/Keychains/login.keychain-db",    "/Library/Keychains/System.keychain",
+"onepassword_present": YES,
+"bitwarden_present": YES,
+"env_secrets_count": 8,
+"env_secret_names": WSD_CLOUDFLARE_API_TOKEN,OPENAI_API_KEY,GH_TOKEN,GITHUB_TOKEN,WSD_OPENAI_API_KEY,WSD_GITHUB_TOKEN,CLOUDFLARE_API_TOKEN,CF_API_TOKEN,
+"aws_credentials_present": NO,
+"gcp_adc_present": NO,
+},
+"cron_and_scheduling": {
+"cron_jobs": */10 * * * * /bin/bash /Users/billydeeii136/WSD_CROSS_SYSTEM_COORDINATOR.sh >> /Users/billydeeii136/logs/coordinator_cron.log 2>&1;0 * * * * /bin/bash /Users/billydeeii136/WSD_GOOGLE_DRIVE_OFFLOADER.sh >> /Users/billydeeii136/logs/offloader_cron.log 2>&1;0 9 * * * /bin/bash /Users/billydeeii136/wsd_mac_ultimate_optimizer.sh >> /Users/billydeeii136/logs/optimizer_cron.log 2>&1;,
+"launch_agents_user": WSD_DISABLED_20260604T211321Z,com.epson.epsvcp.plist,com.google.GoogleUpdater.wake.plist,com.google.keystone.agent.plist,com.google.keystone.xpcservice.plist,com.wsd.cloud-login-automation.plist,com.wsd.downloadmac-drain.plist,com.wsd.dropbox-sync-guard.plist,live.cumseeme.site.plist,
+"launch_agents_system": com.epson.EpsonSoftwareUpdater.launcher.plist,com.epson.Epson_Low_Ink_Reminder.launcher.plist,com.epson.RemotePrintIOHelper.plist,com.epson.edca.launcher.plist,com.epson.eventmanager.agent.plist,com.epson.ijfax.FaxIOHelper.plist,com.epson.scannermonitor.plist,
+"launch_daemons_system": com.cloudflare.1dot1dot1dot1.macos.warp.daemon.plist,com.cloudflare.cloudflared.plist,com.epson.RemotePrintIODaemon.plist,com.epson.ijfax.FaxIODaemon.plist,
+"login_items": ,
+},
+"processes_and_services": {
+"total_processes": 347,
+"top_processes_by_cpu": {"pid": "2726", "command": "stable", "cpu": "54.7"},{"pid": "55708", "command": "containermanager", "cpu": "31.9"},{"pid": "59611", "command": "System", "cpu": "Events"},{"pid": "73362", "command": "WindowServer", "cpu": "22.5"},{"pid": "55646", "command": "deleted", "cpu": "21.9"},{"pid": "59628", "command": "FolderActionsDis", "cpu": "14.4"},{"pid": "863", "command": "tccd", "cpu": "8.3"},{"pid": "159", "command": "trustd", "cpu": "5.8"},{"pid": "124", "command": "launchservicesd", "cpu": "4.0"},{"pid": "85", "command": "logd", "cpu": "3.3"},
+"top_processes_by_mem": {"pid": "2726", "command": "stable", "mem": "11.4"},{"pid": "55708", "command": "containermanager", "mem": "0.1"},{"pid": "59611", "command": "System", "mem": "Events"},{"pid": "73362", "command": "WindowServer", "mem": "0.5"},{"pid": "55646", "command": "deleted", "mem": "0.3"},{"pid": "59628", "command": "FolderActionsDis", "mem": "0.3"},{"pid": "863", "command": "tccd", "mem": "0.2"},{"pid": "159", "command": "trustd", "mem": "0.1"},{"pid": "124", "command": "launchservicesd", "mem": "0.1"},{"pid": "85", "command": "logd", "mem": "0.2"},
+"active_browsers": {"browser": "Google Chrome", "pid": "86085", "mem": "0.9"},
+"active_cloud_services": 394
+cloudflared:RUNNING
+google_drive:OFF
+dropbox:OFF,
+},
+"files_and_directories": {
+"home_scripts": WSD_CCOS_EMERGENCY_RECOVERY.sh,WSD_CLOUD_AUTH_ACCESS.sh,WSD_COMPLETE_MAC_CLOUD_INVENTORY.sh,WSD_COMPREHENSIVE_SPACE_RECOVERY.sh,WSD_CROSS_SYSTEM_COORDINATOR.sh,WSD_DUPLICATE_AND_SPACE_AUDIT.sh,WSD_ENHANCED_SPACE_AUDIT.sh,WSD_FAST_MAC_CLOUD_INVENTORY.sh,WSD_FINAL_HARVEST.sh,WSD_GOOGLE_DRIVE_OFFLOADER.sh,WSD_MAC_CLOUD_AUDIT.sh,WSD_UNIVERSAL_BASELINE_AUDIT.sh,WSD_WRANGLER_AUTH_AND_VERIFY.sh,wsd_mac_ultimate_optimizer.sh,
+"home_scripts_count": 14,
+"downloads_contents": 07-JA-705 Case File,13-2505,18-4201,4-13-CV-00058-RBS,4-13-VC-00007-RBS,4-13-cv-00058-RBS-DEM,4th Circuit briefapxreq,5-12-CV-493-F Evidence Exhibits,5-12-cv-00493-M,5-14-CR-240-B,5-14-cr-00240-D,5-14-cr-00240-D (2),5-14-cr-00240-D (3),5-14-cr-00240-D (4),5-14-cr-00240-D (5),5-14-cr-00240-D 2,7 Domains query_overview_2026-04-18T08_02_10.856Z,90Page Administrative Mandate Full Length Separate PDFs  William Scott Davis Jr,AC Wyatt,ADA M. Sheketa & CPD M. Savage as Material witness in a civil matter,
+"downloads_count": 200,
+"documents_size": 5.7M,
+"pictures_size": 13M,
+"movies_size": 28K,
+"music_size": 244K,
+"desktop_size": 948M,
+"library_size": 119G,
+"top_level_directories": ,
+},
+"logs_and_diagnostics": {
+"system_logs_size": 174M,
+"recent_system_errors": Timestamp                       Thread     Type        Activity             PID    TTL  ;2026-06-07 02:38:05.174411-0400 0x1c65f0   Default     0x0                  155    0    taskgated: (Security) [com.apple.securityd:security_exception] MacOS error: -67062;2026-06-07 02:38:05.175050-0400 0x1c2e3f   Default     0x0                  155    0    taskgated: (Security) [com.apple.securityd:security_exception] MacOS error: -67062;2026-06-07 02:38:05.175328-0400 0x1c5d70   Default     0x0                  155    0    taskgated: (Security) [com.apple.securityd:security_exception] MacOS error: -67062;2026-06-07 02:38:05.177451-0400 0x2b6      Default     0x0                  155    0    taskgated: (Security) [com.apple.securityd:security_exception] MacOS error: -67062;,
+"audit_logs": cloud_data_report_20260320_073436.log,coordinator_20260607_031000.log,coordinator_20260607_032000.log,coordinator_20260607_033000.log,coordinator_cron.log,duplicates_Documents.txt,duplicates_Downloads.txt,gdrive_offloader_20260607_030602.log,gdrive_offloader_20260607_031001.log,gdrive_offloader_20260607_031033.log,
+},
+"environment_variables": {
+"env_path": /Users/billydeeii136/bin,/Users/billydeeii136/.npm-global/bin,/Users/billydeeii136/.local/bin,/Users/billydeeii136/bin,/Users/billydeeii136/.cargo/bin,/Users/billydeeii136/.gem/ruby/2.6.0/bin,/usr/local/bin,/opt/homebrew/bin,/usr/bin,/bin,/usr/sbin,/sbin,/Applications/Warp.app/Contents/Resources/bin,
+"env_home": /Users/billydeeii136,
+"env_shell": /bin/bash,
+"env_user": billydeeii136,
+"env_lang": en_US.UTF-8,
+"env_term": xterm-256color,
+"env_cloudflare_api_token": PRESENT,
+"env_cf_api_token": PRESENT,
+"env_cf_account_id": PRESENT,
+"env_openai_api_key": PRESENT,
+"env_anthropic_api_key": ABSENT,
+},
+"ai_tools_and_agents": {
+"warp_version": Oz v0.2026.05.27.15.44.stable_01,
+"codex_cli_present": /Users/billydeeii136/.npm-global/bin/codex
+YES,
+"chatgpt_cli_present": /Users/billydeeii136/.local/bin/chatgpt
+YES,
+"warp_tab_configs": wsd-warp-20.toml,
+"ai_extensions_in_vscode": amazonwebservices.amazon-q-vscode-2.2.0,andrepimenta.claude-code-chat-2.0.9,anthropic.claude-code-2.1.165-darwin-x64,augment.vscode-augment-0.859.7,codeium.codeium-1.48.2,coderabbit.coderabbit-vscode-0.19.3,codingworkflow.claude-runner-0.4.1,feiskyer.chatgpt-copilot-4.11.0,kparth01.ollama-codex-1.0.4,ms-azuretools.vscode-azure-github-copilot-1.0.209-darwin-x64,ms-vscode.vscode-websearchforcopilot-0.1.4,openai.chatgpt-26.602.30954-darwin-x64,saoudrizwan.claude-dev-3.88.1,sbluemin.github-copilot-cli-agents-0.2.7,waveflow.claude-code-chat-cursor-design-0.1.3,
+"warp_agent_lanes": MANIFEST.tsv,README.md,alibaba,aws,azure,chatgpt,claude,cline,cloudflare,codex,copilot,cursor,digitalocean,github,google,hetzner,ibm,intake,kubernetes,linode,logs,oracle,ovh,programs,pulumi,qodo,qwen,scaleway,shared-brain,supermaven,terminal,tmp,vultr,warp,
+},
+"backup_and_recovery": {
+"time_machine_status": Backup session status:;{;    ClientID = "com.apple.backupd";;,
+"icloud_drive_status": 57T9237FN3~net~whatsapp~WhatsApp,com~apple~Automator,com~apple~CloudDocs,
+"google_drive_sync_status": SYNC_INACTIVE,
+"recent_backups": 2026-05-17_2257,
+},
+"security_and_compliance": {
+"firewall_status": Firewall is enabled. (State = 1) ,
+"sip_status": System Integrity Protection status: enabled.,
+"gatekeeper_status": assessments enabled,
+"filevault_status": FileVault is Off.,
+"xprotect_version":     XProtectPlistConfigData:,
+},
+"configuration_files": {
+"bash_profile_present": YES,
+"bashrc_present": YES,
+"zshrc_present": YES,
+"vimrc_present": NO,
+"gitconfig_present": YES,
+"ssh_config_present": YES,
+"wrangler_config_present": YES,
+"dotfiles_list": ,
+},
+"recent_changes_and_activity": {
+"last_10_git_commits_warp": 424d323 fix: set executable permissions on all automation scripts;916cb3d docs: add comprehensive daily maintenance schedule;8609785 auto-offload: 20260607_032001 disk=60% avail=9.6Gi;00ded04 fix: remove size limit for script offloader, move ALL non-active .sh;c319edb fix: aggressive script offloader - move all non-active .sh immediately;1ad3ec8 docs: add SYSTEM_AUTOMATION_STATUS.md for all lanes;604f442 system: add automated mac optimizer, gdrive offloader, and cross-system coordinator - wsd_mac_ultimate_optimizer.sh: daily 9AM browser/system optimization - WSD_GOOGLE_DRIVE_OFFLOADER.sh: hourly automated offload to Google Drive - WSD_CROSS_SYSTEM_COORDINATOR.sh: every 10min cross-lane sync - Integrates with Codex lanes, VS Code, WARP, Terminal, GitHub, Cloudflare;3c043d1 pre-system-sync: wrangler config update before mac optimizer integration;8c2b06c feat: Consolidate 7 domains + 20 sub-platforms with production worker;4535222 docs: Archive 20-pane cloud agent operational runs;,
+"last_10_git_commits_codex": 4e3f1d6 auto-offload: 20260607_030606 disk=72% avail=5.6Gi;3ab9010 Backup and verify Cloudflare private backstop state;c03bea1 Backup and verify Cloudflare private backstop state;11d2d7e Backup and verify Cloudflare private backstop state;103c61e Backup and verify Cloudflare private backstop state;9f15901 Backup and verify Cloudflare private backstop state;d950fef Backup and verify Cloudflare private backstop state;6cd333f Backup and verify Cloudflare private backstop state;8d0b8ea Backup and verify Cloudflare private backstop state;757d67b backup: daily project control ledger 2026-06-06;,
+"recent_terminal_commands": ,
+"recent_file_modifications": /Users/billydeeii136//.wsd-keychain-env-vars,/Users/billydeeii136//wsd_mac_ultimate_optimizer.sh,/Users/billydeeii136//WSD_GOOGLE_DRIVE_OFFLOADER.sh,/Users/billydeeii136//.DS_Store,/Users/billydeeii136//apple-store-fix.command,/Users/billydeeii136//apple-keys-fix.command,/Users/billydeeii136//.zshrc,/Users/billydeeii136//.zprofile,/Users/billydeeii136//icloud-cloud-migrate.command,/Users/billydeeii136//WSD_CROSS_SYSTEM_COORDINATOR.sh,
+"recent_directory_modifications": /Users/billydeeii136/,/Users/billydeeii136//codex-wsd-control,/Users/billydeeii136//Desktop,/Users/billydeeii136//.ai_universal_vault,/Users/billydeeii136//.wsd_offload_markers,/Users/billydeeii136//.codex,/Users/billydeeii136//logs,/Users/billydeeii136//.dropbox,/Users/billydeeii136//audit,/Users/billydeeii136//.ssh,
+},
+"_audit_completed": "2026-06-07T07:38:07Z"
+}

@@ -1,0 +1,23 @@
+Copyright (c) 2026 William S Davis II / WSD World Wide Enterprise Inc.
+
+All Rights Reserved.
+
+This repository contains proprietary software and documentation. The AI
+agent/chatbot personality system, self-evolution engine, and associated
+proprietary mathematical formulas described in this repository are
+proprietary and confidential to WSD World Wide Enterprise Inc.
+
+Third-party open-source components included or referenced in this
+repository (e.g. Ollama, Warp, and other tools) remain licensed under
+their own respective open-source licenses. Nothing in this LICENSE
+grants rights to those third-party components beyond what their
+original licenses provide.
+
+No part of the proprietary portions of this repository may be
+reproduced, distributed, or transmitted in any form or by any means
+without the prior written permission of the copyright holder, except
+for brief excerpts used for reference purposes.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.

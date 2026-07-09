@@ -1,0 +1,140 @@
+name = "WSD WARP 20 AI Agents"
+color = "blue"
+title = "WSD Isolation Platform — 20 Agents — 2026-06-05 Aligned"
+
+[[panes]]
+id = "root"
+split = "horizontal"
+children = ["col1", "col2", "col3", "col4"]
+
+[[panes]]
+id = "col1"
+split = "vertical"
+children = ["priya", "aisha", "mei", "amara", "zara"]
+
+[[panes]]
+id = "col2"
+split = "vertical"
+children = ["nia", "fatima", "keiko", "lena", "maya"]
+
+[[panes]]
+id = "col3"
+split = "vertical"
+children = ["tala", "rosa", "imani", "jin", "yuki"]
+
+[[panes]]
+id = "col4"
+split = "vertical"
+children = ["chandra", "soraya", "ananya", "hana", "aya"]
+
+# Column 1
+[[panes]]
+id = "priya"
+type = "agent"
+directory = "/Users/billydeeii136/codex-wsd-control"
+is_focused = true
+
+[[panes]]
+id = "aisha"
+type = "agent"
+directory = "/Users/billydeeii136/codex-wsd-control"
+
+[[panes]]
+id = "mei"
+type = "agent"
+directory = "/Users/billydeeii136/Documents/Codex"
+
+[[panes]]
+id = "amara"
+type = "agent"
+directory = "/Users/billydeeii136/wsd-warp-control"
+
+[[panes]]
+id = "zara"
+type = "agent"
+directory = "/Users/billydeeii136/WSD_AI_AGENT_LANES/programs/warp/projects/wsd-warp-ai-orchestrator/lanes/warp"
+
+# Column 2
+[[panes]]
+id = "nia"
+type = "agent"
+directory = "/Users/billydeeii136/WSD"
+
+[[panes]]
+id = "fatima"
+type = "agent"
+directory = "/Users/billydeeii136/wsd_backups"
+
+[[panes]]
+id = "keiko"
+type = "agent"
+directory = "/Users/billydeeii136/WSD_BUILD"
+
+[[panes]]
+id = "lena"
+type = "agent"
+directory = "/Users/billydeeii136/WSD_JAILS"
+
+[[panes]]
+id = "maya"
+type = "agent"
+directory = "/Users/billydeeii136/cloudflared"
+
+# Column 3
+[[panes]]
+id = "tala"
+type = "agent"
+directory = "/Users/billydeeii136/helpdesk_ai"
+
+[[panes]]
+id = "rosa"
+type = "agent"
+directory = "/Users/billydeeii136/TCAR"
+
+[[panes]]
+id = "imani"
+type = "agent"
+directory = "/Users/billydeeii136/NEXGEN_SYNC"
+
+[[panes]]
+id = "jin"
+type = "agent"
+directory = "/Users/billydeeii136/ai-growth"
+
+[[panes]]
+id = "yuki"
+type = "agent"
+directory = "/Users/billydeeii136/wsd_production_core"
+
+# Column 4
+[[panes]]
+id = "chandra"
+type = "agent"
+directory = "/Users/billydeeii136/WSD_TOTAL_INFRASTRUCTURE"
+
+[[panes]]
+id = "soraya"
+type = "agent"
+directory = "/Users/billydeeii136/.warp/worktrees/codex-wsd-control"
+
+[[panes]]
+id = "ananya"
+type = "agent"
+directory = "/Users/billydeeii136/.warp/tab_configs"
+
+[[panes]]
+id = "hana"
+type = "agent"
+directory = "/Users/billydeeii136/codex"
+
+[[panes]]
+id = "aya"
+type = "agent"
+directory = "/Users/billydeeii136/Documents"
+
+# --- ChatGPT 5.5 Alignment ---
+# Lane: /Users/billydeeii136/WSD_AI_AGENT_LANES/programs/openai-chatgpt/projects/wsd-shared-brain/lanes/chatgpt
+# Compatibility: /Users/billydeeii136/WSD_AI_AGENT_LANES/chatgpt
+# Codex memory synced into WARP lane memory at: /Users/billydeeii136/WSD_AI_AGENT_LANES/programs/warp/projects/wsd-warp-ai-orchestrator/lanes/warp/memory
+# Manifest: /Users/billydeeii136/WSD_AI_AGENT_LANES/programs/warp/projects/wsd-warp-ai-orchestrator/lanes/warp/memory/codex-warp-alignment-manifest.md
+# ---

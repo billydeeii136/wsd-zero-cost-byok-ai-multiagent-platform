@@ -1,0 +1,10 @@
+{
+  // Hana — codex Sub-Platform
+  "name": "wsd-hana-platform",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-01",
+  "kv_namespaces": [
+    { "binding": "CONFIG", "id": "placeholder" }
+  ],
+  "pages_build_output_dir": "dist"
+}

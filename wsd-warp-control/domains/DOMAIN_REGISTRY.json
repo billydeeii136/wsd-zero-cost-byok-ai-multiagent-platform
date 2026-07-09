@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "version": "1.0",
+    "updated": "2026-06-06",
+    "owner": "William Scott Davis II",
+    "registrar": "Porkbun",
+    "dns_provider": "Cloudflare Free",
+    "total_domains": 7,
+    "layer_1_count": 1,
+    "layer_2_count": 6
+  },
+  "domains": [
+    {
+      "domain": "wsdenterprisesworldwide.com",
+      "layer": 1,
+      "tier": "apex",
+      "github_repo_name": "wsd-warp-control",
+      "status": "live",
+      "role": "Apex enterprise domain. All sub-platforms and control layers originate here.",
+      "sub_platforms": 20,
+      "isolation_level": "primary",
+      "infrastructure": {
+        "dns": "Cloudflare Free",
+        "pages": "Cloudflare Pages",
+        "workers": "Cloudflare Workers",
+        "kv": "Cloudflare KV (config/status only)",
+        "tunnel": "Cloudflare Tunnel (outbound-only from MacBook Air)",
+        "tls": "TLS 1.3 + post-quantum encryption via Cloudflare edge"
+      }
+    },
+    {
+      "domain": "wsdenterpirsesworldwidecloudservices.cloud",
+      "layer": 2,
+      "tier": "satellite",
+      "github_repo_name": "wsd-cloudservices-site",
+      "status": "live",
+      "role": "Cloud services satellite domain for WSD enterprise offerings.",
+      "isolation_level": "shared-lane",
+      "infrastructure": {
+        "dns": "Cloudflare Free",
+        "pages": "Cloudflare Pages",
+        "workers": "Cloudflare Workers (dynamic only)",
+        "kv": "Cloudflare KV (config/status only)"
+      }
+    },
+    {
+      "domain": "lebeautiful-botanicals.us.com",
+      "layer": 2,
+      "tier": "satellite",
+      "github_repo_name": "lebeautiful-botanicals-site",
+      "status": "live",
+      "role": "LeBeautiful Botanicals brand satellite site.",
+      "isolation_level": "shared-lane",
+      "infrastructure": {
+        "dns": "Cloudflare Free",
+        "pages": "Cloudflare Pages",
+        "workers": "Cloudflare Workers (dynamic only)",
+        "kv": "Cloudflare KV (config/status only)"
+      }
+    },
+    {
+      "domain": "acwyatt.com",
+      "layer": 2,
+      "tier": "satellite",
+      "github_repo_name": "acwyatt-site",
+      "status": "live",
+      "role": "AC Wyatt brand satellite site.",
+      "isolation_level": "shared-lane",
+      "infrastructure": {
+        "dns": "Cloudflare Free",
+        "pages": "Cloudflare Pages",
+        "workers": "Cloudflare Workers (dynamic only)",
+        "kv": "Cloudflare KV (config/status only)"
+      }
+    },
+    {
+      "domain": "neighborhoodcarspa.us.com",
+      "layer": 2,
+      "tier": "satellite",
+      "github_repo_name": "neighborhood-carspa-site",
+      "status": "live",
+      "role": "Neighborhood Car Spa brand satellite site.",
+      "isolation_level": "shared-lane",
+      "infrastructure": {
+        "dns": "Cloudflare Free",
+        "pages": "Cloudflare Pages",
+        "workers": "Cloudflare Workers (dynamic only)",
+        "kv": "Cloudflare KV (config/status only)"
+      }
+    },
+    {
+      "domain": "vokdesigngarage.com",
+      "layer": 2,
+      "tier": "satellite",
+      "github_repo_name": "vok-design-garage-site",
+      "status": "live",
+      "role": "VOK Design Garage brand satellite site.",
+      "isolation_level": "shared-lane",
+      "infrastructure": {
+        "dns": "Cloudflare Free",
+        "pages": "Cloudflare Pages",
+        "workers": "Cloudflare Workers (dynamic only)",
+        "kv": "Cloudflare KV (config/status only)"
+      }
+    },
+    {
+      "domain": "cumseeme.live",
+      "layer": 2,
+      "tier": "satellite",
+      "github_repo_name": "cumseeme-live-jail",
+      "status": "live",
+      "role": "Adult entertainment platform — explicitly jailed and isolated from all other domains.",
+      "isolation_level": "jailed",
+      "jail_rules": [
+        "Separate Cloudflare zone or account-level isolation",
+        "No shared Workers, KV, D1, or R2 with other 6 domains",
+        "No cross-origin references from apex or layer-2 to cumseeme.live",
+        "Tunnel used only for local admin, never for public routing",
+        "All AI model registry, gatekeeping, and scoring logic is quarantined in its own control lane"
+      ],
+      "infrastructure": {
+        "dns": "Cloudflare Free",
+        "pages": "Cloudflare Pages",
+        "workers": "Cloudflare Workers (isolated from shared lanes)",
+        "kv": "Cloudflare KV (isolated namespace)",
+        "tunnel": "Cloudflare Tunnel (local admin only)",
+        "tls": "TLS 1.3 + post-quantum encryption via Cloudflare edge"
+      }
+    }
+  ]
+}

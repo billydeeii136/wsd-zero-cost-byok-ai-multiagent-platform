@@ -1,0 +1,12 @@
+# One target per line.
+# Formats:
+#   ssh <user@host> [port]
+#   adb <device_serial>
+#
+# Examples:
+# ssh chip@node-1.local 22
+# ssh chip@192.168.1.50
+# adb R58WXXXXXXXX
+
+# Active USB-connected Android target
+adb RZGYC0HL1QZ

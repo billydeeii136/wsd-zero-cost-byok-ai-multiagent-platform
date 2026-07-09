@@ -1,0 +1,7 @@
+{
+  // WSD Enterprise Domain Scaffold
+  "name": "wsd-acwyatt-com",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-01",
+  "pages_build_output_dir": "dist"
+}

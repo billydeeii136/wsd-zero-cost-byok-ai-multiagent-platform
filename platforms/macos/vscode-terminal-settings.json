@@ -1,0 +1,10 @@
+{
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.env.osx": {
+    "ZERO_COST_MODE": "1",
+    "ZERO_COST_FORCE_LOCAL_OPENAI_COMPAT": "1",
+    "OPENAI_BASE_URL": "http://127.0.0.1:11434/v1",
+    "OPENAI_API_KEY": "ollama"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://unpkg.com/wrangler@latest/wrangler.jsonc",
+  "name": "wsd-enterprise-router",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-06-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "account_id": "2d288500662a3e524ebbd0a191ce8220",
+  "kv_namespaces": [
+    { "binding": "WSD_CONFIG", "id": "2ee259cbd69b400983a5540731d9d274", "preview_id": "8455b2e3a6c44244a100c94176897103" },
+    { "binding": "WSD_HEARTBEAT", "id": "d5ce9a3926af406abdadd0a0496e98aa" }
+  ],
+  "d1_databases": [
+    { "binding": "WSD_ENTERPRISES_DB", "database_name": "wsd-enterprises-db", "database_id": "e1667b8a-1372-47ff-aa84-9a9a7b076aca" },
+    { "binding": "WSD_CLOUD_SERVICES_DB", "database_name": "wsd-cloud-services-db", "database_id": "afeb7889-9cb1-48be-8add-e309ab8567b3" },
+    { "binding": "VOK_DESIGN_GARAGE_DB", "database_name": "vokdesigngarage-db", "database_id": "960228b3-aaf5-4160-a6de-bf9891781904" },
+    { "binding": "NEIGHBORHOOD_CAR_SPA_DB", "database_name": "neighborhoodcarspa-db", "database_id": "1d6c6e90-969b-44cd-828f-b8d866a7803c" },
+    { "binding": "LEBEAUTIFUL_BOTANICALS_DB", "database_name": "lebeautiful-botanicals-db", "database_id": "78a2f75b-5e3e-49c3-a468-035b97d55878" },
+    { "binding": "CUMSEEME_LIVE_DB", "database_name": "cumseeme-live-db", "database_id": "e4870e29-f48c-44be-8e71-112432e71e0e" },
+    { "binding": "ACWYATT_DB", "database_name": "acwyatt-trucking-db", "database_id": "4c8f1584-0b3b-448d-bf93-9ba9b4000505" }
+  ],
+  "routes": [
+    { "pattern": "wsdenterprisesworldwide.com/*", "zone_id": "a38440978eafbf991a7ddcec80a4c7a7" },
+    { "pattern": "*.wsdenterprisesworldwide.com/*", "zone_id": "a38440978eafbf991a7ddcec80a4c7a7" },
+    { "pattern": "acwyatt.com/*", "zone_id": "a565473ec4fdaaf8fc966017c3fffdcf" },
+    { "pattern": "*.acwyatt.com/*", "zone_id": "a565473ec4fdaaf8fc966017c3fffdcf" },
+    { "pattern": "cumseeme.live/*", "zone_id": "7ac5fa053383e92677bb84a002a74eeb" },
+    { "pattern": "*.cumseeme.live/*", "zone_id": "7ac5fa053383e92677bb84a002a74eeb" },
+    { "pattern": "lebeautiful-botanicals.us.com/*", "zone_id": "c6cc75e662bf7080394147762d162390" },
+    { "pattern": "*.lebeautiful-botanicals.us.com/*", "zone_id": "c6cc75e662bf7080394147762d162390" },
+    { "pattern": "neighborhoodcarspa.us.com/*", "zone_id": "962b548c99f46be45ea5198bd7ad216a" },
+    { "pattern": "*.neighborhoodcarspa.us.com/*", "zone_id": "962b548c99f46be45ea5198bd7ad216a" },
+    { "pattern": "vokdesigngarage.com/*", "zone_id": "e31c9f742c8430091c89cb2288bd1192" },
+    { "pattern": "*.vokdesigngarage.com/*", "zone_id": "e31c9f742c8430091c89cb2288bd1192" },
+    { "pattern": "wsdenterpirsesworldwidecloudservices.cloud/*", "zone_id": "40b94339b015f79e926160869a87f9a6" },
+    { "pattern": "*.wsdenterpirsesworldwidecloudservices.cloud/*", "zone_id": "40b94339b015f79e926160869a87f9a6" }
+  ]
+}
