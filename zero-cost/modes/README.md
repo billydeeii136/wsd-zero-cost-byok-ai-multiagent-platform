@@ -13,6 +13,12 @@ source ~/.config/zero-cost/select-mode.sh 07
 source ~/.config/zero-cost/select-mode.sh ollama-command-r
 
 # The active mode persists automatically for all future shells via profile.sh
+
+# Master index: all 30 modes + the related/flagged external projects below, in one report
+~/.config/zero-cost/zero-cost-index.sh
+~/.config/zero-cost/zero-cost-index.sh --json
+~/.config/zero-cost/zero-cost-index.sh --verified-only
+~/.config/zero-cost/zero-cost-index.sh --path ollama-command-r
 ```
 
 ## Cost Tiers

@@ -44,7 +44,7 @@ if json_out:
     print(json.dumps(entries, indent=2))
 else:
     header = ("ID", "SLUG", "TIER", "SCOPE", "MODEL", "DESCRIPTION")
-    widths = (4, 24, 12, 16, 32, 60)
+    widths = (4, 24, 12, 20, 32, 60)
     fmt = "".join("{:%d}" % w for w in widths)
     print(fmt.format(*header))
     print(fmt.format(*("-" * (w - 1) for w in widths)))
