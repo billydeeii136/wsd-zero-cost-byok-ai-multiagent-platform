@@ -45,10 +45,9 @@ deploy_ssh() {
     TARGET_COUNT=$((TARGET_COUNT + 1))
 
     run_or_print ssh -p "$port" "$target" "mkdir -p ~/.config/zero-cost ~/.warp" || return 1
-    run_or_print rsync -az -e "ssh -p $port" \
-        "$ZERO_COST_DIR/profile.sh" \
-        "$ZERO_COST_DIR/warp-guard.sh" \
-        "$ZERO_COST_DIR/rollout.sh" \
+    run_or_print rsync -az --exclude 'active-mode-name.txt' \
+        -e "ssh -p $port" \
+        "$ZERO_COST_DIR/" \
         "$target:~/.config/zero-cost/" || return 1
 
     if [ "$INCLUDE_SECRETS" -eq 1 ] && [ -f "$HOME/.warp/byok-key-inventory.env" ]; then
@@ -75,9 +74,7 @@ deploy_adb() {
     fi
 
     run_or_print adb -s "$serial" shell "mkdir -p /sdcard/zero-cost" || return 1
-    run_or_print adb -s "$serial" push "$ZERO_COST_DIR/profile.sh" "/sdcard/zero-cost/profile.sh" || return 1
-    run_or_print adb -s "$serial" push "$ZERO_COST_DIR/warp-guard.sh" "/sdcard/zero-cost/warp-guard.sh" || return 1
-    run_or_print adb -s "$serial" push "$ZERO_COST_DIR/rollout.sh" "/sdcard/zero-cost/rollout.sh" || return 1
+    run_or_print adb -s "$serial" push "$ZERO_COST_DIR/" "/sdcard/zero-cost/" || return 1
 
     if [ "$INCLUDE_SECRETS" -eq 1 ] && [ -f "$HOME/.warp/byok-key-inventory.env" ]; then
         run_or_print adb -s "$serial" push "$HOME/.warp/byok-key-inventory.env" "/sdcard/zero-cost/byok-key-inventory.env" || return 1
@@ -87,8 +84,7 @@ deploy_adb() {
         adb -s "$serial" shell "test -d /data/data/com.termux/files/home" >/dev/null 2>&1
         if [ $? -eq 0 ]; then
             adb -s "$serial" shell "mkdir -p /data/data/com.termux/files/home/.config/zero-cost" >/dev/null 2>&1
-            adb -s "$serial" shell "cp /sdcard/zero-cost/profile.sh /data/data/com.termux/files/home/.config/zero-cost/profile.sh" >/dev/null 2>&1
-            adb -s "$serial" shell "cp /sdcard/zero-cost/warp-guard.sh /data/data/com.termux/files/home/.config/zero-cost/warp-guard.sh" >/dev/null 2>&1
+            adb -s "$serial" shell "cp -r /sdcard/zero-cost/. /data/data/com.termux/files/home/.config/zero-cost/" >/dev/null 2>&1
             adb -s "$serial" shell 'grep -q "zero-cost/profile.sh" /data/data/com.termux/files/home/.bash_profile 2>/dev/null || printf "\nif [ -f \"$HOME/.config/zero-cost/profile.sh\" ]; then\n    source \"$HOME/.config/zero-cost/profile.sh\"\nfi\n" >> /data/data/com.termux/files/home/.bash_profile' >/dev/null 2>&1
         else
             printf '[info] %s: files pushed to /sdcard/zero-cost (Termux home not accessible via adb shell).\n' "$serial"
