@@ -1,0 +1,26 @@
+#!/bin/bash
+# META: {"id": "28", "slug": "anyscale-byok", "name": "Anyscale Endpoints (BYOK)", "tier": "byok-remote", "scope": "remote", "model": "meta-llama/Meta-Llama-3-70B-Instruct", "desc": "Anyscale Endpoints hosted inference"}
+# Anyscale Endpoints (BYOK) (byok-remote)
+# Anyscale Endpoints hosted inference
+# Activate with: source "$HOME/.config/zero-cost/select-mode.sh" 28
+
+export ZERO_COST_ACTIVE_MODE_ID="28"
+export ZERO_COST_ACTIVE_MODE_SLUG="anyscale-byok"
+export ZERO_COST_ACTIVE_MODE_NAME="Anyscale Endpoints (BYOK)"
+export ZERO_COST_ACTIVE_MODE_TIER="byok-remote"
+export ZERO_COST_ACTIVE_MODE_SCOPE="remote"
+export ZERO_COST_DEFAULT_MODEL="meta-llama/Meta-Llama-3-70B-Instruct"
+export ZERO_COST_WARP_CREDIT_FALLBACK=0  # always off: no mode may spend Warp credits
+
+export OPENAI_BASE_URL="https://api.endpoints.anyscale.com/v1"
+export OPENAI_API_KEY="${ANYSCALE_API_KEY:-}"
+export ZERO_COST_ALLOW_REMOTE_OPENAI_COMPAT=1
+if [ -z "$OPENAI_API_KEY" ]; then
+    printf '[zero-cost] Warning: ANYSCALE_API_KEY is not set. Add it to ~/.warp/byok-key-inventory.env\n' >&2
+fi
+
+export OLLAMA_HOST="${OLLAMA_HOST:-127.0.0.1:11434}"
+export LLM_BASE_URL="$OPENAI_BASE_URL"
+export LLM_API_KEY="$OPENAI_API_KEY"
+
+printf '[zero-cost] Active mode: %s (%s)\n' "$ZERO_COST_ACTIVE_MODE_NAME" "$ZERO_COST_ACTIVE_MODE_TIER"
