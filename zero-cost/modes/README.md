@@ -56,6 +56,25 @@ source ~/.config/zero-cost/select-mode.sh ollama-command-r
 | 29 | azure-openai-byok | byok-remote | remote | (Azure deployment) | Azure OpenAI enterprise BYOK routing |
 | 30 | hybrid-failover | hybrid | localhost+remote | llama3.2 | Local Ollama first; auto-fails over to OpenRouter BYOK only if local server is unreachable |
 
+## Related Zero-Cost Projects (Kept Separate — Not Duplicated Here)
+
+These are independent zero-cost efforts elsewhere on this machine. They are **not renamed, merged, or duplicated** into the WARP_ZERO_COST modes above — each keeps its own identity, scope, and naming.
+
+| Project | Location | What it actually is |
+|---|---|---|
+| WSD-Zero-Cost-AI | `~/warp_ready_projects/WSD-Zero-Cost-AI` | Android (A15/A16/A17) Termux client that talks to a Mac-hosted local Ollama/AI gateway over the home LAN, with bearer-token auth and a DNS routing plan. Own naming: `WSD_PHONE_ZERO_COST_AI`. |
+| wsd_ccos_ai_lab BYOK profile | `~/wsd_ccos_ai_lab/.env.zero_cost` | A separate BYOK env template (`BYOK_ZERO_COST_MODE=true`, `OPENAI_HARD_DISABLE=true`) defaulting to local Ollama (`qwen2.5:0.5b`). Has its own git repo. |
+| free-llm-api-resources | `~/free-llm-api-resources` | A maintained, auto-generated catalog of genuinely free LLM API tiers (OpenRouter free models, Google AI Studio, Groq, Cerebras, HuggingFace, GitHub Models, Cloudflare Workers AI) with real, sourced rate limits. |
+
+Verified as functional/legitimate zero-cost resources. None were modified by this repo.
+
+### Flagged: not verified as factual zero-cost
+
+| Project | Location | Issue |
+|---|---|---|
+| FREE-openai-api-keys | `~/FREE-openai-api-keys` | The listed "keys" (e.g. `sk-abcdef1234567890...`) are placeholder patterns, not real OpenAI keys. They will not authenticate. Not a functional resource. |
+| free-1000-tb-cloud-cluster-mesh | `~/wsd_repos/free-1000-tb-cloud-cluster-mesh` | Empty scaffold repo (README: "(TODO: Add description)"). No provider offers anywhere near 1000TB free; the claim is currently unsubstantiated and unimplemented. |
+
 ## Notes
 
 - **BYOK remote modes (21-29, 30 fallback)** read their API key from an environment variable (e.g. `OPENROUTER_API_KEY`, `GROQ_API_KEY`) that should be defined in `~/.warp/byok-key-inventory.env`. If the variable is unset, the mode still activates but prints a warning to stderr — it will not silently use Warp credits instead.
