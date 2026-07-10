@@ -21,7 +21,6 @@
   - [Web Server (Open Source)](#web-server-open-source)
 - [Downloads](#downloads)
 - [Configuration](#configuration)
-  - [30 WARP_ZERO_COST Modes](#30-warp_zero_cost-modes)
 - [Automation & Self-Healing](#automation--self-healing)
 - [License](#license)
 
@@ -535,29 +534,6 @@ Override to enable remote BYOK routing:
 ```bash
 export ZERO_COST_ALLOW_REMOTE_OPENAI_COMPAT=1  # Allows real API keys for providers
 ```
-
-### 30 WARP_ZERO_COST Modes
-
-Beyond the single default profile above, `zero-cost/modes/` ships **30 selectable mode variants** — different local inference backends, different Ollama models, and different BYOK remote providers — so you can pick whichever fits the task, hardware, or node. Every mode keeps Warp credit usage at **zero**; modes only change which LLM backend your shell points to.
-
-```bash
-# List all 30 modes in a table
-~/.config/zero-cost/list-modes.sh
-
-# Activate one by ID or slug (must be sourced)
-source ~/.config/zero-cost/select-mode.sh 07
-source ~/.config/zero-cost/select-mode.sh ollama-command-r
-
-# Selection persists automatically for all future shells via profile.sh
-```
-
-| Tier | Count | Cost | Examples |
-|------|-------|------|----------|
-| `local-free` | 20 | $0 always | Ollama (10 model variants), LM Studio, llama.cpp, text-generation-webui, KoboldCPP, LocalAI, GPT4All, Jan.ai, vLLM, LAN-wide, airgapped-strict |
-| `byok-remote` | 9 | $0 Warp credits, your provider's own billing | OpenRouter, Groq, Together.ai, Fireworks.ai, Mistral, DeepInfra, Perplexity, Anyscale, Azure OpenAI |
-| `hybrid` | 1 | $0 always, remote only as failover | Local Ollama first, auto-fails over to OpenRouter BYOK if unreachable |
-
-Full catalog with descriptions: [`zero-cost/modes/README.md`](zero-cost/modes/README.md).
 
 ### Warp Settings TOML
 
